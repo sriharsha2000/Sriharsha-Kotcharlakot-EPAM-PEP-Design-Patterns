@@ -1,13 +1,10 @@
 package com.epampep.designpatterns;
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Singleton s = Singleton.getInstance();
+    	System.out.println("Singleton ID = " + s.getId());
+    	System.out.println("Singleton Name = " + s.getName());   	
     }
 }
